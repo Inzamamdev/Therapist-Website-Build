@@ -27,12 +27,12 @@ function Services() {
       <div className="w-[92%] mx-auto grid gap-16 md:grid-cols-2 lg:grid-cols-3 pb-10">
         {therapyData.map((item, idx) => (
           <div key={idx} className="text-center">
-            <div className="w-96 h-96 mx-auto overflow-hidden rounded-full">
+            <div className=" mx-auto overflow-hidden rounded-full">
               <Image
                 src={item.image}
                 alt={item.title}
-                width={240}
-                height={240}
+                width={500}
+                height={500}
                 className="object-cover w-full h-full"
               />
             </div>

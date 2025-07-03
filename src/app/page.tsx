@@ -4,6 +4,7 @@ import Services from "@/components/ui/Services";
 import FAQ from "@/components/ui/Faq";
 import RatesAndInsurance from "@/components/ui/Rates";
 import ContactForm from "@/components/ui/Contact";
+import Reach from "@/components/ui/Reach";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
       <FAQ />
       <RatesAndInsurance />
       <ContactForm />
+      <Reach />
     </>
   );
 }
